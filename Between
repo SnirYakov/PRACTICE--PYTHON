@@ -1,0 +1,9 @@
+def between(nums, a, b):
+    i= 0
+    new_list = []
+    for i in range(len(nums)):
+        if a < nums[i] < b:
+            new_list.append(nums[i])
+            i = i+1
+    return new_list
+print(between([-145,-100,-89,-35,-5,0,2,4,10,15,20,30,32,44,45,80,88,100,125,177,189], int(input("please enter minimum: ")),int(input("please enter maximum: "))))
