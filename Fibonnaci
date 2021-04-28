@@ -1,0 +1,20 @@
+def Fibonnaci(nums_to_generate):
+    new_list = []
+    nums= int(nums_to_generate)
+    i = 1
+    a = 0
+    counter = 0
+
+    while  counter < nums:
+        new_list.append(i)
+        i += a
+        a = new_list[-1]
+        counter = counter + 1
+
+
+    return new_list
+
+
+print(Fibonnaci(input("please enter numbers to generate: ")))
+
+
