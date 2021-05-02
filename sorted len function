@@ -1,0 +1,7 @@
+def sorted_l():
+    lst1 = ["one", "two", "three", "four", "five", "six", "seven", "eight"]
+    lst2 = sorted(lst1, key=len)
+    print(lst2)
+    lst3 = sorted(lst1, key=len ,reverse=True)
+    print(lst3)
+sorted_l()
