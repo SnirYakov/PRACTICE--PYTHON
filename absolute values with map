@@ -1,0 +1,5 @@
+def absolute_V():
+    lst1 = [-1, 2, -500, 678, -200, -400, 20, -300, 500, -55, -468]
+    lst2= list(map(lambda x:x if x>0 else -x, lst1))
+    print(lst2)
+absolute_V()
