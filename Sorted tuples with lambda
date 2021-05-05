@@ -1,0 +1,7 @@
+def lambda_T():
+    lst1=[("Tiffany", "New York") ,("Mark", "Alabama"),
+          ("Claudia", "Hawaii"), ("Ben", "Vermont"),
+          ("Jennifer", "West Virginia"), ("John", "California")]
+    lst1.sort(key= lambda x:x[0][-1])
+    print(lst1)
+lambda_T()
