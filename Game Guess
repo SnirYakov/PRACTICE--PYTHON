@@ -2,7 +2,7 @@ import random as rd
 
 tries= 5
 counter= 0
-secret_number= rd.randint(0, 20)
+secret_number= rd.randint(1, 20)
 guess= input("please enter your guess: ")
 
 while not guess.isdigit():
@@ -23,4 +23,4 @@ elif counter <tries and counter== 1:
     print("wow!!!!! you supper lucky!!!")
 else:
     print("you used all of your tries sorry.. the correct answer is",guess)
-    print("you lose!")
+    print("you lost!")
